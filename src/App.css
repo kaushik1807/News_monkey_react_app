@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#linav{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#h2news{
+   font-family: 'Baloo Bhai 2', cursive;
+   font-size: 40px;
+
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.card:hover{
+  transform: translatex(7px);
+  transition: all ease-in-out 0.5s;
+ box-shadow: 0 0 10px;
+}
+
+/* .card-title{
+ color: #61dafb;
+} */
+div h1{
+  color: black;
+  font-family:  'Bree Serif', serif;
+  font-size: 50px;
+}
+.main{
+  background-color: #e6e6e6;
+}
